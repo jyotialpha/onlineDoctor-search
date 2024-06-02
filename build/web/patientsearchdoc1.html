@@ -1,0 +1,112 @@
+<!-- doctor_search.jsp -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Doctor Search</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            padding: 0;
+            background-color: lightskyblue;
+        }
+        h1 {
+            text-align: center;
+            color: #007bff;
+        }
+        form {
+            max-width: 400px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: lightgray;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            border-radius: 4px;
+        }
+        input[type="text"] {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+        input[type="submit"] {
+            width: 100%;
+            padding: 10px;
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        input[type="submit"]:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <h1>Doctor Search</h1>
+    <form action="searchdoc.jsp" method="GET">
+        
+        
+        
+        <label for="spacialist">Spacialist in:</label>
+
+                        <select name="spacialist" id="spacialist">
+                            <option value="Select">Select Spacialist</option>
+                            <option value="Andrology">Andrology</option>
+                            <option value="Ayurvedic">Ayurvedic</option>
+                            <option value="Cardiologist">Cardiologist</option>
+                            <option value="Dentist">Dentist</option>
+                            <option value="Diabetologist">Diabetologist</option>
+                            <option value="Gynaecology">Gynaecology</option>
+                            <option value="Homoepaty">Homoepaty</option>
+                            <option value="Medicine">Medicine</option>
+                            <option value="Urology">Urology</option>
+                            <option value="PlsticSurgery">PlsticSurgery</option>
+                        </select>
+        <br>
+        <br>
+        <br>
+        
+        <label for="District">District:</label>
+
+                        <select name="District" id="District">
+                            <option value="Select">Select District</option>
+                            <option value="puri">puri</option>
+                            <option value="balasore">balasore</option>
+                            <option value="cuttack">cuttack</option>
+                            <option value="Gajapati">Gajapati</option>
+                            <option value="Sambalpur">Sambalpur</option>
+                            <option value="Jajpur">Jajpur</option>
+                            <option value="kendrapada">kendrapada</option>
+                            <option value="Koraput">Koraput</option>
+                            <option value="Raygada">Raygada</option>
+                            <option value="kandhamal">kandhamal</option>
+                        </select>
+         <br>
+        <br>
+        <br>
+        <br>
+       
+        <input type="submit" value="Search">
+        <br>
+        <br>
+        <br>
+        <div style="text-align: center">
+        <button><a href="patientupdatedelete.html";">Profile</button>
+        </div>
+        <br>
+        <br>
+        <div style="text-align: center">
+        <button><a href="patient_login.html";">Changepassword</button>
+        </div>
+        <br>
+        <br>
+        <div style="text-align: center">
+        <button><a href="patient_login.html";">Logout</a></button>
+        </div>
+    
+    </form>
+</body>
+</html>

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<!-- patient_login.html -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Patient Login - Doctor-Patient Portal</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+    body{
+background-image: url(p.jpg);
+background-size: cover;
+background-repeat: no-repeat;
+}
+</style>
+</head>
+
+<body>
+    <header>
+        <h1>Patient Login</h1>
+    </header>
+
+    <main>
+        <section>
+            <h2>Login</h2>
+            <form action="loginpatient.jsp" method="POST">
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" required>
+                <br>
+                <br>
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+                <br>
+                
+                <input type="submit" value="Login" class="btn">
+            </form>
+            
+          
+            
+            <!--FORGOT PASSWORD-->
+<!--            <p><a href="#" onclick="showForgotPassword()">Forgot Password?</a></p>
+
+            <div id="forgotPasswordContainer" style="display: none;">
+                <h3>Forgot Password</h3>
+                <p>Enter your email address to reset your password:</p>
+                <form>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required><br>
+                    <button type="submit">Reset Password</button>
+                </form>
+            </div>
+        
+            <script>
+                function showForgotPassword() {
+                    var forgotPasswordContainer = document.getElementById("forgotPasswordContainer");
+                    forgotPasswordContainer.style.display = "block";
+                }
+            </script>-->
+
+        </section>
+    </main>
+
+
+</body>
+
+</html>

@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Doctor-Patient Portal</title>
+<!--    <link rel="stylesheet" href="styles.css">-->
+  <style>
+        .container {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color:gold;
+    border-radius: 5px;
+  }
+  table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+
+    th, td {
+      padding: 10px;
+      text-align: left;
+
+    }
+    body{
+        text-align:center;
+        background-color: lightgreen
+    }
+    
+  </style>
+  
+    </head>
+    
+    
+    
+    <body>
+        
+    <h1 style="text-align: center">Patient Update</h1>
+    
+    <main>
+        
+            <h2>Register</h2>
+            <form action="Patientupdate.jsp" method="POST">
+                
+                <label for="Firstname">FirstName:</label>
+                <input type="text" id="Firstname" name="Firstname" required>
+                <br>
+                <br>
+                
+                <label for="Lastname">LastName:</label>
+                <input type="text" id="Lastname" name="Lastname" required>
+                <br>
+                <br>
+                
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" required>
+                <br>
+                <br>
+                <label for="email">E_mail ID:</label>
+                <input type="email" id="email" name="email" required>
+                <br>
+                <br>
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+                <br>
+                <br>
+                <label for="Mobile No">Mobile No:</label>
+                <input type="text" id="Mobile No" name="Mobileno" required MAXLENGTH="10">
+                <br>
+                <br>
+                
+                                    
+             <label for="gender">Gender</label>
+             
+                                    <select name="gender" id="gender">
+                                        <option value="Select">Select gender</option>
+                                    <option value="Male">Male</option>
+                                     <option value="Female">Female</option>
+                                    </select>
+             <br>
+                <br>
+                <label for="Age">Age:</label>
+                <input type="text" id="Mobile No" name="Age" required>
+                <br>
+                <br>
+                
+                <label for="State">State</label>
+                                   
+                                    <select name="State" id="State">
+                                    <option value="Select">Select State</option>
+                                    <option value="Bihar">Bihar</option>
+                                    <option value="Goa">Goa</option>
+                                    <option value="Gujurat">Gujurat</option>
+                                    <option value="Hryana">Hryana</option>
+                                    <option value="Odisha">Odisha</option>
+                                    <option value="Manipur">Manipur</option>
+                                    <option value="Kerala">Kerala</option>
+                                    <option value="Punjab">Punjab</option>
+                                    <option value="Rajastan">Rajastan</option>
+                                    <option value="Tripura">Tripura</option>
+                                    </select>
+                     <br>
+                     <br>  
+                     <label for="District">District</label>
+                                    
+                                    <select name="District" id="District">
+                                    <option value="Select">Select District</option>
+                                    <option value="puri">puri</option>
+                                    <option value="balasore">balasore</option>
+                                    <option value="cuttack">cuttack</option>
+                                    <option value="Gajapati">Gajapati</option>
+                                    <option value="Sambalpur">Sambalpur</option>
+                                    <option value="Jajpur">Jajpur</option>
+                                    <option value="kendrapada">kendrapada</option>
+                                    <option value="Koraput">Koraput</option>
+                                    <option value="Raygada">Raygada</option>
+                                    <option value="kandhamal">kandhamal</option>
+                                    </select>
+                     <br>
+                     <br>  
+                      <label for="pincode">Pincode:</label>
+                <input type="text" id="pincode" name="pincode" required>
+                <br>
+                <br>
+               
+                   
+                <input type="submit" value="Update" class="btn">
+                
+            </form>
+       
+    </main>
+
+    <footer>
+        <p></p>
+    </footer>
+</body>          
+    
+</html>
