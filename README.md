@@ -5,7 +5,7 @@ We welcome and encourage developers to contribute to the project and help us mak
 
 👉🏻Clone the Forked Repository: Open your terminal or command prompt and use the following command to clone the repository to your local machine:
 
-git clone https://github.com/your-username/BankingPortal-API.git
+git clone https://github.com/your-username/onlineDoctor-search.git
 Replace your-username with your GitHub username.
 
 👉🏻Create a New Branch: Move into the project directory using cd BankingPortal-API and create a new branch for your changes:
